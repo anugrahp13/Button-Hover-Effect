@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-color: #000;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 16px 32px;
+    background-color: tomato;
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 15px;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -110%;
+    bottom: 0;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: skewX(-30deg);
+    transition: left 0.7s ease-in-out;
+}
+
+button:hover::before {
+    left: 120%;
+}
