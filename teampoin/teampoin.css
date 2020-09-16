@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
-    background-color: #000;
+    background-color: #1A1A1A;
 }
 
 button {
@@ -12,7 +12,7 @@ button {
     text-transform: uppercase;
     font-weight: 400;
     padding: 16px 32px;
-    background-color: tomato;
+    background-color: crimson;
     color: #FFF;
     font-family: 'poppins';
     font-size: 15px;
